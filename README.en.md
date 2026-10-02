@@ -42,7 +42,7 @@ python3 -m http.server 8000
 # Visit http://localhost:8000
 ```
 
-> Three.js is loaded from the jsDelivr CDN, so an internet connection is required the first time you open the 3D scene.
+> Three.js (r160) is bundled in `vendor/three/`, so it works fully offline. Because it uses ES modules, serve it via a local server; opening via `file://` may be blocked by the browser.
 
 ## Keyboard Shortcuts
 

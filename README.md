@@ -42,7 +42,7 @@ python3 -m http.server 8000
 # 访问 http://localhost:8000
 ```
 
-> Three.js 通过 jsDelivr CDN 加载，首次打开 3D 场景需要联网。
+> Three.js (r160) 已内置在 `vendor/three/`，完全离线可用。注意：因使用 ES module，请通过本地服务器访问，直接双击打开 `file://` 可能被浏览器拦截。
 
 ## 快捷键
 
